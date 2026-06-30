@@ -4,6 +4,7 @@ import argparse
 
 from rich.console import Console
 
+from services.boss_resolver import BossResolver
 from services.manifest_service import ManifestService
 from services.portal_scanner import PortalScanner
 from services.source_analyzer import SourceAnalyzer
@@ -47,9 +48,17 @@ class Application:
         discovered = scanner.scan()
         scanner.save()
 
+        boss_resolver = BossResolver(source_path=source_path)
+        bosses = boss_resolver.resolve()
+        boss_resolver.save()
+
         self.console.print(
             f"[green]PortalScanner completed:[/green] "
             f"{len(discovered)} portal(s) discovered."
+        )
+        self.console.print(
+            f"[green]BossResolver completed:[/green] "
+            f"{len(bosses)} boss candidate(s) resolved."
         )
 
     def _parse_args(self) -> argparse.Namespace:

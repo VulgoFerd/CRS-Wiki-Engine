@@ -1,0 +1,25 @@
+{
+    "name": "shoop da woop",
+    "portal_name": "Minnesota",
+    "difficulty": "midgame",
+    "object_id": "shoop da woop",
+    "object_type": "",
+    "display_id": "",
+    "group": "",
+    "class_name": "",
+    "enemy": false,
+    "quest": false,
+    "texture_file": "",
+    "texture_index": "",
+    "source_files": [
+        "server/wServer/logic/db/BehaviorDb.Events.cs"
+    ],
+    "evidence": [
+        "portal:Minnesota",
+        "world:Terraria",
+        "map:server/common/resources/worlds/minnesota.jm",
+        "map_object:Spawner Terraria",
+        "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+        "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+    ]
+}

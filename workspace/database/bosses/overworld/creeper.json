@@ -1,0 +1,28 @@
+{
+    "name": "Creeper",
+    "portal_name": "OVERWORLD",
+    "difficulty": "earlygame",
+    "object_id": "Creeper",
+    "object_type": "0x6f04",
+    "display_id": "Creeper",
+    "group": "",
+    "class_name": "Character",
+    "enemy": true,
+    "quest": true,
+    "texture_file": "",
+    "texture_index": "",
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/wServer/logic/db/BehaviorDb.Events.cs"
+    ],
+    "evidence": [
+        "portal:OVERWORLD",
+        "world:Minecraft",
+        "map:server/common/resources/worlds/alvinzone.jm",
+        "map_object:Spawner Overword",
+        "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+        "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+    ]
+}

@@ -1,0 +1,255 @@
+{
+    "total": 10,
+    "bosses": [
+        {
+            "name": "GUMBALL",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "GUMBALL",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Interactive Buddy",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Mindy",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Nadine",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Nadine",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Nightmare Orange",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Tong Shau Ping",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Tong Shau Ping",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "Vera",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "a flare v2",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "a flare v2",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "cakecore",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "prism of chaos",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "object_id": "prism of chaos",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Caelid Wilds",
+                "world:League of Legends",
+                "map:server/common/resources/worlds/leanworld.jm",
+                "map_object:Spawner League of Legends",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

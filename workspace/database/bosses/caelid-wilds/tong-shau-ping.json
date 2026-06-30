@@ -1,0 +1,25 @@
+{
+    "name": "Tong Shau Ping",
+    "portal_name": "Caelid Wilds",
+    "difficulty": "endgame",
+    "object_id": "Tong Shau Ping",
+    "object_type": "",
+    "display_id": "",
+    "group": "",
+    "class_name": "",
+    "enemy": false,
+    "quest": false,
+    "texture_file": "",
+    "texture_index": "",
+    "source_files": [
+        "server/wServer/logic/db/BehaviorDb.Events.cs"
+    ],
+    "evidence": [
+        "portal:Caelid Wilds",
+        "world:League of Legends",
+        "map:server/common/resources/worlds/leanworld.jm",
+        "map_object:Spawner League of Legends",
+        "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+        "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+    ]
+}

@@ -1,0 +1,280 @@
+{
+    "total": 11,
+    "bosses": [
+        {
+            "name": "Billy Herrington",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "Billy Herrington",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "Herobrine",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "Herobrine",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "baldi",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "dancing triangle",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "dancing triangle",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "finnish warrior",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "hatsune mike",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "octahedron LEGS",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "puggsy",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "shoop da woop",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "shoop da woop",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "soulja boi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "soulja boi",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "name": "sun baby",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "object_id": "sun baby",
+            "object_type": "",
+            "display_id": "",
+            "group": "",
+            "class_name": "",
+            "enemy": false,
+            "quest": false,
+            "texture_file": "",
+            "texture_index": "",
+            "source_files": [
+                "server/wServer/logic/db/BehaviorDb.Events.cs"
+            ],
+            "evidence": [
+                "portal:Minnesota",
+                "world:Terraria",
+                "map:server/common/resources/worlds/minnesota.jm",
+                "map_object:Spawner Terraria",
+                "spawner_behavior:server/wServer/logic/db/BehaviorDb.Events.cs",
+                "boss_behavior:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}
