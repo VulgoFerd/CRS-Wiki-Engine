@@ -1,0 +1,16 @@
+{
+    "name": "Caelid Wilds",
+    "difficulty": "endgame",
+    "enabled": true,
+    "object_id": "CAELID WILDS",
+    "object_type": "0x5b9a",
+    "dungeon_name": "League of Legends",
+    "display_id": "League of Legends",
+    "texture_file": "lofiObjSp",
+    "texture_index": "0x191",
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Minnesota",
+    "difficulty": "midgame",
+    "enabled": true,
+    "object_id": "MINNESOTA",
+    "object_type": "0x5b99",
+    "dungeon_name": "Terraria",
+    "display_id": "Terraria",
+    "texture_file": "lofiObjSp",
+    "texture_index": "0x190",
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ]
+}

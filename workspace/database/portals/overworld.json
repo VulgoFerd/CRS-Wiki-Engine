@@ -1,0 +1,16 @@
+{
+    "name": "OVERWORLD",
+    "difficulty": "earlygame",
+    "enabled": true,
+    "object_id": "DA ALVIN ZONE",
+    "object_type": "0x5b98",
+    "dungeon_name": "Minecraft",
+    "display_id": "OVERWORLD",
+    "texture_file": "MinecraftOverworldPortal",
+    "texture_index": "0",
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ]
+}

@@ -3,7 +3,7 @@ project:
   version: 0.1.0
 
 source:
-  path: ""
+  path: ../CriasRealm
 
 discord:
   token: ""

@@ -7,13 +7,13 @@ from models.portal import Portal
 
 class ManifestService:
 
-    def __init__(self):
+    def __init__(self, path: Path = Path("manifest.yaml")) -> None:
 
-        self.path = Path("manifest.yaml")
+        self.path = path
 
         self.data = {}
 
-    def load(self):
+    def load(self) -> None:
 
         with self.path.open(
             "r",
@@ -22,7 +22,20 @@ class ManifestService:
 
             self.data = yaml.safe_load(file)
 
-    def get_portals(self):
+    def get_source_path(self) -> Path:
+        source = self.data.get("source", {})
+        raw_path = source.get("path", "")
+
+        if not raw_path:
+            raise ValueError("source.path must be configured in manifest.yaml")
+
+        path = Path(raw_path).expanduser()
+        if path.is_absolute():
+            return path
+
+        return (self.path.parent / path).resolve()
+
+    def get_portals(self) -> list[Portal]:
 
         result = []
 
