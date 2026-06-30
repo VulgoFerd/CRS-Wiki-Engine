@@ -1,0 +1,22 @@
+project:
+  name: CRS Wiki Engine
+  version: 0.1.0
+
+source:
+  path: ""
+
+discord:
+  token: ""
+  guild_id: ""
+  category: Wiki
+
+difficulty:
+
+  earlygame:
+    - OVERWORLD
+
+  midgame:
+    - Minnesota
+
+  endgame:
+    - Caelid Wilds
