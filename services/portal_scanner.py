@@ -30,13 +30,11 @@ class PortalScanner:
         self._validate_inputs()
         candidates = self._load_candidate_xml_paths()
         all_portals = self._extract_portals(candidates)
-        unique = {}
+        unique: dict[str, Portal] = {}
 
         for portal in all_portals:
-
             key = self._normalize(portal.object_id)
-
-        unique.setdefault(key, portal)
+            unique.setdefault(key, portal)
 
         all_portals = list(unique.values())
         self.discovered = self._match_whitelist(all_portals)
