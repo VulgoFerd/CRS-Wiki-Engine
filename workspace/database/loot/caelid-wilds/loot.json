@@ -1,0 +1,1627 @@
+{
+    "total": 89,
+    "bosses": {
+        "GUMBALL": [
+            {
+                "item_name": "50k Fame",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "gumy staff",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "yetimi gay rat",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Gumball Land Key",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "mouldy YUM YUM",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T8 Upgrade",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "sealed candy skull",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0022727272727272726,
+                "raw_probability": "1 / 440f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "GUMBALL",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:GUMBALL",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Interactive Buddy": [
+            {
+                "item_name": "50k Fame",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "5000 Fame",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.045454545454545456,
+                "raw_probability": "1 / 22f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Space Key",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "viva la vida",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "midnight",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "interactivity",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T6 Upgrade",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "interactive dagger",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006578947368421052,
+                "raw_probability": "1 / 152f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Peace of Mind",
+                "boss_name": "Interactive Buddy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.00001)",
+                "evidence": [
+                    "boss:Interactive Buddy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Mindy": [
+            {
+                "item_name": "CARAMELLA MIC",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "MISSA INTE CHANSEN",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "NU Ã„R VI HÃ„R MED",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Caramelldansen Key",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "eye of gardens",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T6 Upgrade",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006578947368421052,
+                "raw_probability": "1 / 152f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Mindy",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Mindy",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Nadine": [
+            {
+                "item_name": "KLAPPA ERA HÃ„NDER",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "LYSSNA OCH LÃ„R",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "jag skar mig i fingret",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "dancer prancer",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Caramelldansen Key",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "ASGARD Token",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.010309278350515464,
+                "raw_probability": "1 / 97f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "FAVELA Token",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.007246376811594203,
+                "raw_probability": "1 / 138f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006060606060606061,
+                "raw_probability": "1 / 165f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "A Fallen Light (Token)",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006578947368421052,
+                "raw_probability": "1 / 152f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T6 Upgrade",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "GÃ–R SOM VI GÃ–R",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Nadine",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nadine",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Nightmare Orange": [
+            {
+                "item_name": "Dreadcull T7 Upgrade",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "staff Orange Nightmare",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006060606060606061,
+                "raw_probability": "1 / 165f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "summer realms Katana but a sword",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006060606060606061,
+                "raw_probability": "1 / 165f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "summer realms Katana but a katana",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006060606060606061,
+                "raw_probability": "1 / 165f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Nightmare Kitchen Key",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "evil Helmets Tangerine",
+                "boss_name": "Nightmare Orange",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006060606060606061,
+                "raw_probability": "1 / 165f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Nightmare Orange",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Tong Shau Ping": [
+            {
+                "item_name": "50k Fame",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "5000 Fame",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.045454545454545456,
+                "raw_probability": "1 / 22f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "fuckin ugly reds",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "balo seal",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Hong Kong Key",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T7 Upgrade",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "kong hong 97",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "she Hong my Kong",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006578947368421052,
+                "raw_probability": "1 / 152f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "alvin realms is gonna disappear",
+                "boss_name": "Tong Shau Ping",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0018181818181818182,
+                "raw_probability": "1 / 550f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Tong Shau Ping",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Vera": [
+            {
+                "item_name": "GAMER BELT",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "CARAMEL EXPERIENCE",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.010101010101010102,
+                "raw_probability": "1 / 99f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "bikini trap",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Caramelldansen Key",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T6 Upgrade",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "BLOWN THE FUCK OUT",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.006578947368421052,
+                "raw_probability": "1 / 152f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Deep Sea Token",
+                "boss_name": "Vera",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Vera",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "a flare v2": [
+            {
+                "item_name": "Darkstone Pickaxe",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.002793296089385475,
+                "raw_probability": "1 / 358f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Rocc",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0051813471502590676,
+                "raw_probability": "1 / 193f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "rexr Key",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "a flarev2",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.002421307506053269,
+                "raw_probability": "1 / 413f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "prism of prism of chaos",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tisk tisk maybe YOURE",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "a flare v2",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:a flare v2",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "cakecore": [
+            {
+                "item_name": "Darkstone Pickaxe",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0051813471502590676,
+                "raw_probability": "1 / 193f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Rocc",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "a flarev2",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "rexr Key",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "prism of prism of chaos",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tisk tisk maybe YOURE",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.002793296089385475,
+                "raw_probability": "1 / 358f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "cakecore",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:cakecore",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "prism of chaos": [
+            {
+                "item_name": "Darkstone Pickaxe",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.002793296089385475,
+                "raw_probability": "1 / 358f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Rocc",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.002793296089385475,
+                "raw_probability": "1 / 358f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "rexr Key",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "a flarev2",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "prism of prism of chaos",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0051813471502590676,
+                "raw_probability": "1 / 193f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tisk tisk maybe YOURE",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0008453085376162299,
+                "raw_probability": "1 / 1183f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "prism of chaos",
+                "portal_name": "Caelid Wilds",
+                "difficulty": "endgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:prism of chaos",
+                    "portal:Caelid Wilds",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ]
+    }
+}

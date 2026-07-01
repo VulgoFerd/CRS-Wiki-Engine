@@ -1,0 +1,149 @@
+{
+    "total": 8,
+    "drops": [
+        {
+            "item_name": "miku Key",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "microphone left",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Legendsary Token 1",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.25,
+            "raw_probability": "1 / 4f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "hatsune miku",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "microphone right",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T4 Upgrade",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "6 dolla r :)",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0022727272727272726,
+            "raw_probability": "1 / 440f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "hatsune mike",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.010309278350515464,
+            "raw_probability": "1 / 97f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:hatsune mike",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

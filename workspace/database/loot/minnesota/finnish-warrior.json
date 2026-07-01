@@ -1,0 +1,185 @@
+{
+    "total": 10,
+    "drops": [
+        {
+            "item_name": "DANGER PASKA",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "hide armor",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Legendsary Token 1",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.25,
+            "raw_probability": "1 / 4f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "finsword",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "FINLAND key",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "suomi perkele",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "FINLAND SCEPTER",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T4 Upgrade",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "FINLAND PRIDE",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 5.0408307289041234e-05,
+            "raw_probability": "1 / 19838f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "finnish warrior",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:finnish warrior",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1701 @@
+{
+    "total": 93,
+    "bosses": {
+        "Billy Herrington": [
+            {
+                "item_name": "ANIKI PRISM",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0015151515151515152,
+                "raw_probability": "1 / 660f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "ass dagger",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Sex DUNGEON Key",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "robes of cock",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "SLAVE BOW",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T3 Upgrade",
+                "boss_name": "Billy Herrington",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Billy Herrington",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Herobrine": [
+            {
+                "item_name": "diamond chestplate",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "mc shield irons",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "steve head STOLEN",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Alvin Craft Key",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "DiAMOND SWORD",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Diamond Pickaxe",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T3 Upgrade",
+                "boss_name": "Herobrine",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Herobrine",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "baldi": [
+            {
+                "item_name": "baldi HEAD why dead",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0018181818181818182,
+                "raw_probability": "1 / 550f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "pencil staff",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "baldi Key",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "PENCIL CUTTER",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "SWEDEN GANG",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "NOTEBOOK BALDI",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T3 Upgrade",
+                "boss_name": "baldi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:baldi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "dancing triangle": [
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "triangle helmet",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "for real this time",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.01818181818181818,
+                "raw_probability": "1 / 55f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "shape shoes",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.00909090909090909,
+                "raw_probability": "1 / 110f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "yellows sword",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "dancing triangle",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:dancing triangle",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "finnish warrior": [
+            {
+                "item_name": "DANGER PASKA",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "hide armor",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "finsword",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "FINLAND key",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "suomi perkele",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "FINLAND SCEPTER",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "FINLAND PRIDE",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 5.0408307289041234e-05,
+                "raw_probability": "1 / 19838f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "finnish warrior",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:finnish warrior",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "hatsune mike": [
+            {
+                "item_name": "miku Key",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "microphone left",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "hatsune miku",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "microphone right",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "6 dolla r :)",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0022727272727272726,
+                "raw_probability": "1 / 440f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "hatsune mike",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.010309278350515464,
+                "raw_probability": "1 / 97f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:hatsune mike",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "octahedron LEGS": [
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "dagger hedron",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "pink pickle thung",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "octahedron LAIR Key",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T6 Upgrade",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "what the fuck",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.005847953216374269,
+                "raw_probability": "1 / 171f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "octahedron",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0012987012987012987,
+                "raw_probability": "1 / 770f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "LEGS",
+                "boss_name": "octahedron LEGS",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0012987012987012987,
+                "raw_probability": "1 / 770f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:octahedron LEGS",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "puggsy": [
+            {
+                "item_name": "Invulnerability Shield",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.00030303030303030303,
+                "raw_probability": "1 / 3300f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.058823529411764705,
+                "raw_probability": "1 / 17f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.03571428571428571,
+                "raw_probability": "1 / 28f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.01639344262295082,
+                "raw_probability": "1 / 61f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.013888888888888888,
+                "raw_probability": "1 / 72f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.02564102564102564,
+                "raw_probability": "1 / 39f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.02,
+                "raw_probability": "1 / 50f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T5 Upgrade",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "tomatoes",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "throwing quiver",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "poggy gun",
+                "boss_name": "puggsy",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:puggsy",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "shoop da woop": [
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "LAZER GUN REAL",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.004545454545454545,
+                "raw_probability": "1 / 220f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "LAZER ESENZE",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "rainbow road key",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "rainbow SEAL",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "LAZAH",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T4 Upgrade",
+                "boss_name": "shoop da woop",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:shoop da woop",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "soulja boi": [
+            {
+                "item_name": "Legendsary Token 1",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.25,
+                "raw_probability": "1 / 4f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Orendands Ring",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Cash Robe",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "cash trap",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Soulja in Egypt key",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "money hide",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "dollar STAR",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Spaceship Token",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0036363636363636364,
+                "raw_probability": "1 / 275f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T3 Upgrade",
+                "boss_name": "soulja boi",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:soulja boi",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "sun baby": [
+            {
+                "item_name": "sun bottle",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "sunblade",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Sun Field key",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.1111111111111111,
+                "raw_probability": "1 / 9f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Dreadcull T5 Upgrade",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.0030303030303030303,
+                "raw_probability": "1 / 330f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "sunbab2",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "sun book",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "sunburnt robe",
+                "boss_name": "sun baby",
+                "portal_name": "Minnesota",
+                "difficulty": "midgame",
+                "drop_type": "item",
+                "probability": 0.012048192771084338,
+                "raw_probability": "1 / 83f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:sun baby",
+                    "portal:Minnesota",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ]
+    }
+}

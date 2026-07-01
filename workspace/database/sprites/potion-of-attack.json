@@ -1,0 +1,24 @@
+{
+    "owner_type": "item",
+    "owner_name": "Potion of Attack",
+    "texture_file": "d3LofiObjEmbed",
+    "texture_index": "0x102",
+    "index": 258,
+    "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+    "atlas_width": 128,
+    "atlas_height": 600,
+    "tile_width": 8,
+    "tile_height": 8,
+    "x": 16,
+    "y": 128,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "evidence": [
+        "item:Potion of Attack",
+        "texture:d3LofiObjEmbed",
+        "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+    ]
+}

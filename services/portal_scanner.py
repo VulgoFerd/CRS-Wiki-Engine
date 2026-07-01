@@ -30,6 +30,15 @@ class PortalScanner:
         self._validate_inputs()
         candidates = self._load_candidate_xml_paths()
         all_portals = self._extract_portals(candidates)
+        unique = {}
+
+        for portal in all_portals:
+
+            key = self._normalize(portal.object_id)
+
+        unique.setdefault(key, portal)
+
+        all_portals = list(unique.values())
         self.discovered = self._match_whitelist(all_portals)
         return self.discovered
 
@@ -39,8 +48,12 @@ class PortalScanner:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         summary = {
+            "generated": len(self.discovered),
             "total": len(self.discovered),
-            "portals": [portal.to_dict() for portal in self.discovered],
+            "portals": [
+                portal.to_dict()
+                for portal in self.discovered
+            ],
         }
 
         summary_path = self.output_dir / "portals.json"
@@ -61,11 +74,19 @@ class PortalScanner:
 
     def _load_candidate_xml_paths(self) -> list[Path]:
         with self.xml_index_path.open("r", encoding="utf8") as file:
-            xml_index: dict[str, dict[str, int]] = json.load(file)
+            data = json.load(file)
 
-        candidates = []
-        for relative_path, tags in xml_index.items():
-            if tags.get("IntergamePortal", 0) > 0 or tags.get("DungeonName", 0) > 0:
+        files = data.get("files", {})
+
+        candidates: list[Path] = []
+
+        for relative_path, metadata in files.items():
+            tags = metadata.get("tags", {})
+
+            if (
+                tags.get("IntergamePortal", 0) > 0
+                or tags.get("DungeonName", 0) > 0
+            ):
                 candidates.append(self.source_path / relative_path)
 
         return sorted(candidates)
@@ -77,7 +98,11 @@ class PortalScanner:
             if not path.exists():
                 continue
 
-            root = ET.parse(path).getroot()
+            try:
+                root = ET.parse(path).getroot()
+            except ET.ParseError:
+                continue
+
             for node in root.iter():
                 if self._local_name(node.tag) != "Object":
                     continue

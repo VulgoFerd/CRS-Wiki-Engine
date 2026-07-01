@@ -1,0 +1,149 @@
+{
+    "total": 8,
+    "drops": [
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "dagger hedron",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.005847953216374269,
+            "raw_probability": "1 / 171f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "pink pickle thung",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.005847953216374269,
+            "raw_probability": "1 / 171f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "octahedron LAIR Key",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T6 Upgrade",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "what the fuck",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.005847953216374269,
+            "raw_probability": "1 / 171f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "octahedron",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0012987012987012987,
+            "raw_probability": "1 / 770f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "LEGS",
+            "boss_name": "octahedron LEGS",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0012987012987012987,
+            "raw_probability": "1 / 770f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:octahedron LEGS",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

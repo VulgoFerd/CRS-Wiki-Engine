@@ -1,0 +1,167 @@
+{
+    "total": 9,
+    "drops": [
+        {
+            "item_name": "baldi HEAD why dead",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0018181818181818182,
+            "raw_probability": "1 / 550f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "pencil staff",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "baldi Key",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "PENCIL CUTTER",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "SWEDEN GANG",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Legendsary Token 1",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.25,
+            "raw_probability": "1 / 4f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "NOTEBOOK BALDI",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T3 Upgrade",
+            "boss_name": "baldi",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:baldi",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

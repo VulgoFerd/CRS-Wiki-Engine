@@ -1,0 +1,221 @@
+{
+    "total": 12,
+    "drops": [
+        {
+            "item_name": "Invulnerability Shield",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.00030303030303030303,
+            "raw_probability": "1 / 3300f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.058823529411764705,
+            "raw_probability": "1 / 17f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.03571428571428571,
+            "raw_probability": "1 / 28f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.01639344262295082,
+            "raw_probability": "1 / 61f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.013888888888888888,
+            "raw_probability": "1 / 72f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.02564102564102564,
+            "raw_probability": "1 / 39f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.02,
+            "raw_probability": "1 / 50f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T5 Upgrade",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "throwing quiver",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "poggy gun",
+            "boss_name": "puggsy",
+            "portal_name": "Minnesota",
+            "difficulty": "midgame",
+            "drop_type": "item",
+            "probability": 0.012048192771084338,
+            "raw_probability": "1 / 83f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:puggsy",
+                "portal:Minnesota",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

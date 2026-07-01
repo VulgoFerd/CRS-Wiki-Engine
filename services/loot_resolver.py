@@ -1,289 +1,202 @@
 from __future__ import annotations
 
-import json
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional, Any, Iterable
 import re
-from pathlib import Path
-
-from models.drop import Drop
+import difflib
 
 
-class LootResolver:
-    """Resolve drops for bosses discovered by BossResolver."""
+# -----------------------------
+# Data Model
+# -----------------------------
 
-    def __init__(
-        self,
-        source_path: Path,
-        bosses_path: Path = Path("workspace/database/bosses/bosses.json"),
-        output_dir: Path = Path("workspace/database/loot"),
-    ) -> None:
-        self.source_path = source_path
-        self.bosses_path = bosses_path
-        self.output_dir = output_dir
-        self.resolved: list[Drop] = []
+@dataclass
+class Boss:
+    id: str
+    name: str
+    raw: Dict[str, Any] = field(default_factory=dict)
 
-    def resolve(self) -> list[Drop]:
-        """Resolve drops from behavior blocks and loot template methods."""
+    # optional enriched fields
+    aliases: List[str] = field(default_factory=list)
+    phases: List[Dict[str, Any]] = field(default_factory=list)
+    loot_table: List[Dict[str, Any]] = field(default_factory=list)
+    stats: Dict[str, Any] = field(default_factory=dict)
 
-        self._validate_inputs()
-        bosses = self._load_bosses()
-        behavior_index = self._load_behavior_index()
-        loot_templates = self._load_loot_templates()
 
-        drops: list[Drop] = []
-        seen: set[tuple[str, str, str, str]] = set()
+# -----------------------------
+# Resolver Core
+# -----------------------------
 
-        for boss in bosses:
-            behavior = behavior_index.get(boss["name"])
-            if behavior is None:
-                continue
+class BossResolver:
+    """
+    Core intelligence layer for boss resolution.
 
-            boss_drops = self._extract_drops_from_block(
-                block=str(behavior["block"]),
-                source_file=str(behavior["source_file"]),
-                boss=boss,
-                loot_templates=loot_templates,
-            )
+    Responsibilities:
+    - Normalize boss identifiers
+    - Resolve by id, name or alias
+    - Fuzzy matching for unknown references
+    - Enrich boss metadata for Wiki generation
+    """
 
-            for drop in boss_drops:
-                key = (
-                    drop.portal_name,
-                    drop.boss_name,
-                    drop.drop_type,
-                    f"{drop.item_name}:{drop.raw_probability}:{drop.tier}:{drop.item_type}",
-                )
-                if key in seen:
-                    continue
+    def __init__(self, bosses: Optional[Iterable[Dict[str, Any]]] = None):
+        self._bosses_by_id: Dict[str, Boss] = {}
+        self._bosses_by_name: Dict[str, Boss] = {}
+        self._name_index: List[str] = []
 
-                seen.add(key)
-                drops.append(drop)
+        if bosses:
+            self.load_bosses(bosses)
 
-        self.resolved = drops
-        return self.resolved
+    # -----------------------------
+    # Loading / Indexing
+    # -----------------------------
 
-    def save(self) -> None:
-        """Persist resolved loot under the workspace database directory."""
+    def load_bosses(self, bosses: Iterable[Dict[str, Any]]) -> None:
+        for b in bosses:
+            boss = self._build_boss(b)
+            self._register(boss)
 
-        self.output_dir.mkdir(parents=True, exist_ok=True)
+    def _build_boss(self, data: Dict[str, Any]) -> Boss:
+        boss = Boss(
+            id=str(data.get("id", "")),
+            name=str(data.get("name", "")),
+            raw=data
+        )
 
-        by_portal: dict[str, dict[str, list[dict[str, object]]]] = {}
-        for drop in self.resolved:
-            portal = by_portal.setdefault(drop.portal_name, {})
-            portal.setdefault(drop.boss_name, []).append(drop.to_dict())
+        boss.aliases = self._extract_aliases(data)
+        boss.phases = data.get("phases", []) or []
+        boss.loot_table = data.get("loot", []) or []
+        boss.stats = data.get("stats", {}) or {}
 
-        summary = {
-            "total": len(self.resolved),
-            "portals": by_portal,
+        return boss
+
+    def _register(self, boss: Boss) -> None:
+        self._bosses_by_id[boss.id] = boss
+
+        normalized_name = self.normalize(boss.name)
+        self._bosses_by_name[normalized_name] = boss
+        self._name_index.append(normalized_name)
+
+        for alias in boss.aliases:
+            self._bosses_by_name[self.normalize(alias)] = boss
+            self._name_index.append(self.normalize(alias))
+
+    # -----------------------------
+    # Normalization
+    # -----------------------------
+
+    def normalize(self, text: str) -> str:
+        text = text.lower().strip()
+        text = re.sub(r"[^a-z0-9\s]", "", text)
+        text = re.sub(r"\s+", " ", text)
+        return text
+
+    def _extract_aliases(self, data: Dict[str, Any]) -> List[str]:
+        aliases = data.get("aliases", [])
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        return [a for a in aliases if a]
+
+    # -----------------------------
+    # Resolution API
+    # -----------------------------
+
+    def resolve(self, query: str) -> Optional[Boss]:
+        """
+        Resolve a boss by:
+        - ID
+        - Exact name / alias
+        - Fuzzy match fallback
+        """
+
+        if not query:
+            return None
+
+        # 1. Direct ID
+        if query in self._bosses_by_id:
+            return self._bosses_by_id[query]
+
+        norm = self.normalize(query)
+
+        # 2. Exact name/alias match
+        if norm in self._bosses_by_name:
+            return self._bosses_by_name[norm]
+
+        # 3. Fuzzy match fallback
+        return self._fuzzy_resolve(norm)
+
+    def _fuzzy_resolve(self, norm_query: str) -> Optional[Boss]:
+        matches = difflib.get_close_matches(norm_query, self._name_index, n=1, cutoff=0.75)
+
+        if not matches:
+            return None
+
+        best = matches[0]
+        return self._bosses_by_name.get(best)
+
+    # -----------------------------
+    # Enrichment Layer (Wiki Core)
+    # -----------------------------
+
+    def enrich_boss(self, boss: Boss) -> Dict[str, Any]:
+        """
+        Transforms raw boss data into Wiki-ready structure.
+        This is where intelligence expansion happens.
+        """
+
+        return {
+            "id": boss.id,
+            "name": boss.name,
+            "aliases": boss.aliases,
+            "stats": self._normalize_stats(boss.stats),
+            "phases": self._normalize_phases(boss.phases),
+            "loot": self._normalize_loot(boss.loot_table),
+            "summary": self._generate_summary(boss),
         }
 
-        with (self.output_dir / "loot.json").open("w", encoding="utf8") as file:
-            json.dump(summary, file, indent=4, ensure_ascii=False)
+    def _normalize_stats(self, stats: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            k: v for k, v in stats.items()
+            if v is not None
+        }
 
-        for portal_name, bosses in by_portal.items():
-            portal_dir = self.output_dir / self._slugify(portal_name)
-            portal_dir.mkdir(parents=True, exist_ok=True)
+    def _normalize_phases(self, phases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        cleaned = []
+        for i, p in enumerate(phases):
+            cleaned.append({
+                "index": i,
+                "name": p.get("name", f"Phase {i+1}"),
+                "hp_threshold": p.get("hpThreshold"),
+                "abilities": p.get("abilities", [])
+            })
+        return cleaned
 
-            with (portal_dir / "loot.json").open("w", encoding="utf8") as file:
-                json.dump(
-                    {
-                        "total": sum(len(drops) for drops in bosses.values()),
-                        "bosses": bosses,
-                    },
-                    file,
-                    indent=4,
-                    ensure_ascii=False,
-                )
+    def _normalize_loot(self, loot: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        return [
+            {
+                "item": drop.get("item"),
+                "rate": drop.get("rate"),
+                "quantity": drop.get("quantity", 1)
+            }
+            for drop in loot
+        ]
 
-            for boss_name, drops in bosses.items():
-                with (
-                    portal_dir / f"{self._slugify(boss_name)}.json"
-                ).open("w", encoding="utf8") as file:
-                    json.dump(
-                        {"total": len(drops), "drops": drops},
-                        file,
-                        indent=4,
-                        ensure_ascii=False,
-                    )
+    def _generate_summary(self, boss: Boss) -> str:
+        hp = boss.stats.get("hp", "unknown")
+        defense = boss.stats.get("defense", "unknown")
+        phases = len(boss.phases)
 
-    def _validate_inputs(self) -> None:
-        if not self.source_path.exists():
-            raise FileNotFoundError(f"Source path not found: {self.source_path}")
-
-        if not self.bosses_path.exists():
-            raise FileNotFoundError(f"Boss database not found: {self.bosses_path}")
-
-    def _load_bosses(self) -> list[dict[str, object]]:
-        with self.bosses_path.open("r", encoding="utf8") as file:
-            data = json.load(file)
-
-        bosses = []
-        for portal_bosses in data.get("portals", {}).values():
-            bosses.extend(portal_bosses)
-
-        return bosses
-
-    def _load_behavior_index(self) -> dict[str, dict[str, object]]:
-        behavior_index: dict[str, dict[str, object]] = {}
-        init_pattern = re.compile(r'\.Init\("([^"]+)"\s*,')
-
-        for path in (self.source_path / "server").rglob("*.cs"):
-            text = path.read_text(encoding="utf8", errors="ignore")
-            matches = list(init_pattern.finditer(text))
-
-            for index, match in enumerate(matches):
-                block_end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-                block = text[match.start():block_end]
-                behavior_index[match.group(1)] = {
-                    "source_file": path.relative_to(self.source_path).as_posix(),
-                    "block": block,
-                }
-
-        return behavior_index
-
-    def _load_loot_templates(self) -> dict[str, list[dict[str, object]]]:
-        templates: dict[str, list[dict[str, object]]] = {}
-        loot_defs = self.source_path / "server" / "wServer" / "logic" / "loot" / "LootDefs.cs"
-        if not loot_defs.exists():
-            return templates
-
-        text = loot_defs.read_text(encoding="utf8", errors="ignore")
-        method_pattern = re.compile(
-            r'public\s+static\s+ILootDef\[\]\s+(\w+)\s*\(\)\s*\{',
+        return (
+            f"{boss.name} is a boss entity with {hp} HP and {defense} DEF. "
+            f"It has {phases} phase(s) and a structured loot table."
         )
-        matches = list(method_pattern.finditer(text))
-        for index, match in enumerate(matches):
-            block_end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-            block = text[match.start():block_end]
-            templates[match.group(1)] = self._extract_raw_loot_entries(block)
 
-        return templates
+    # -----------------------------
+    # Debug / Inspection
+    # -----------------------------
 
-    def _extract_drops_from_block(
-        self,
-        block: str,
-        source_file: str,
-        boss: dict[str, object],
-        loot_templates: dict[str, list[dict[str, object]]],
-    ) -> list[Drop]:
-        drops = []
-        raw_entries = self._extract_raw_loot_entries(block)
-        raw_entries.extend(self._extract_template_entries(block, loot_templates))
+    def list_bosses(self) -> List[str]:
+        return list(self._bosses_by_id.keys())
 
-        for entry in raw_entries:
-            drops.append(
-                Drop(
-                    item_name=str(entry["item_name"]),
-                    boss_name=str(boss["name"]),
-                    portal_name=str(boss["portal_name"]),
-                    difficulty=str(boss["difficulty"]),
-                    drop_type=str(entry["drop_type"]),
-                    probability=entry["probability"],
-                    raw_probability=str(entry["raw_probability"]),
-                    tier=entry["tier"],
-                    item_type=str(entry["item_type"]),
-                    source_file=source_file,
-                    source_context=str(entry["source_context"]),
-                    evidence=[
-                        f"boss:{boss['name']}",
-                        f"portal:{boss['portal_name']}",
-                        f"source:{source_file}",
-                    ],
-                )
-            )
-
-        return drops
-
-    def _extract_raw_loot_entries(self, block: str) -> list[dict[str, object]]:
-        entries: list[dict[str, object]] = []
-        clean_block = self._remove_commented_lines(block)
-
-        for match in re.finditer(
-            r'new\s+ItemLoot\("([^"]+)"\s*,\s*([^)]+?)\)',
-            clean_block,
-        ):
-            raw_probability = match.group(2).strip()
-            entries.append({
-                "item_name": match.group(1),
-                "drop_type": "item",
-                "raw_probability": raw_probability,
-                "probability": self._parse_probability(raw_probability),
-                "tier": None,
-                "item_type": "",
-                "source_context": self._nearest_context(clean_block, match.start()),
-            })
-
-        for match in re.finditer(
-            r'new\s+TierLoot\((\d+)\s*,\s*ItemType\.([A-Za-z]+)\s*,\s*([^)]+?)\)',
-            clean_block,
-        ):
-            tier = int(match.group(1))
-            item_type = match.group(2)
-            raw_probability = match.group(3).strip()
-            entries.append({
-                "item_name": f"T{tier} {item_type}",
-                "drop_type": "tier",
-                "raw_probability": raw_probability,
-                "probability": self._parse_probability(raw_probability),
-                "tier": tier,
-                "item_type": item_type,
-                "source_context": self._nearest_context(clean_block, match.start()),
-            })
-
-        return entries
-
-    def _extract_template_entries(
-        self,
-        block: str,
-        loot_templates: dict[str, list[dict[str, object]]],
-    ) -> list[dict[str, object]]:
-        entries = []
-        for template_name in re.findall(r'LootTemplates\.(\w+)\s*\(\)', block):
-            for entry in loot_templates.get(template_name, []):
-                copied = dict(entry)
-                copied["source_context"] = f"LootTemplates.{template_name}()"
-                entries.append(copied)
-
-        return entries
-
-    def _remove_commented_lines(self, block: str) -> str:
-        lines = []
-        for line in block.splitlines():
-            if line.strip().startswith("//"):
-                continue
-            lines.append(line)
-
-        return "\n".join(lines)
-
-    def _nearest_context(self, block: str, position: int) -> str:
-        prefix = block[:position]
-        matches = list(re.finditer(r'new\s+(Threshold|MostDamagers|OnlyOne)\s*\(([^,\n)]*)', prefix))
-        if not matches:
-            return "direct"
-
-        last = matches[-1]
-        context_type = last.group(1)
-        context_value = last.group(2).strip()
-        if context_value:
-            return f"{context_type}({context_value})"
-
-        return context_type
-
-    def _parse_probability(self, raw_value: str) -> float | None:
-        value = raw_value.strip().rstrip(",").replace("f", "").replace("d", "")
-
-        fraction = re.fullmatch(r'([0-9.]+)\s*/\s*([0-9.]+)', value)
-        if fraction is not None:
-            denominator = float(fraction.group(2))
-            if denominator == 0:
-                return None
-
-            return float(fraction.group(1)) / denominator
-
-        decimal = re.fullmatch(r'[0-9.]+', value)
-        if decimal is not None:
-            return float(value)
-
-        return None
-
-    def _slugify(self, value: str) -> str:
-        slug = re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
-        return slug or "loot"
+    def get_raw(self, boss_id: str) -> Optional[Dict[str, Any]]:
+        boss = self._bosses_by_id.get(boss_id)
+        return boss.raw if boss else None

@@ -1,306 +1,202 @@
 from __future__ import annotations
 
-import json
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional, Any, Iterable
 import re
-import xml.etree.ElementTree as ET
-from pathlib import Path
+import difflib
 
-from models.boss import Boss
 
+# -----------------------------
+# Data Model
+# -----------------------------
+
+@dataclass
+class Boss:
+    id: str
+    name: str
+    raw: Dict[str, Any] = field(default_factory=dict)
+
+    # optional enriched fields
+    aliases: List[str] = field(default_factory=list)
+    phases: List[Dict[str, Any]] = field(default_factory=list)
+    loot_table: List[Dict[str, Any]] = field(default_factory=list)
+    stats: Dict[str, Any] = field(default_factory=dict)
+
+
+# -----------------------------
+# Resolver Core
+# -----------------------------
 
 class BossResolver:
-    """Resolve boss candidates reachable from whitelisted portal maps."""
+    """
+    Core intelligence layer for boss resolution.
 
-    def __init__(
-        self,
-        source_path: Path,
-        portals_path: Path = Path("workspace/database/portals/portals.json"),
-        output_dir: Path = Path("workspace/database/bosses"),
-    ) -> None:
-        self.source_path = source_path
-        self.portals_path = portals_path
-        self.output_dir = output_dir
-        self.resolved: list[Boss] = []
+    Responsibilities:
+    - Normalize boss identifiers
+    - Resolve by id, name or alias
+    - Fuzzy matching for unknown references
+    - Enrich boss metadata for Wiki generation
+    """
 
-    def resolve(self) -> list[Boss]:
-        """Resolve bosses from portal worlds and behavior spawner logic."""
+    def __init__(self, bosses: Optional[Iterable[Dict[str, Any]]] = None):
+        self._bosses_by_id: Dict[str, Boss] = {}
+        self._bosses_by_name: Dict[str, Boss] = {}
+        self._name_index: List[str] = []
 
-        self._validate_inputs()
-        portals = self._load_portals()
-        worlds = self._load_worlds()
-        behavior_index = self._load_behavior_index()
-        object_index = self._load_object_index()
+        if bosses:
+            self.load_bosses(bosses)
 
-        bosses: list[Boss] = []
-        seen: set[tuple[str, str]] = set()
+    # -----------------------------
+    # Loading / Indexing
+    # -----------------------------
 
-        for portal in portals:
-            world = worlds.get(self._normalize(portal["dungeon_name"]))
-            if world is None:
-                continue
+    def load_bosses(self, bosses: Iterable[Dict[str, Any]]) -> None:
+        for b in bosses:
+            boss = self._build_boss(b)
+            self._register(boss)
 
-            map_objects = self._load_map_objects(world)
-            for map_object in map_objects:
-                boss_names = self._resolve_map_object_boss_names(
-                    map_object,
-                    behavior_index,
-                    object_index,
-                )
-
-                for boss_name in boss_names:
-                    key = (portal["name"], self._normalize(boss_name))
-                    if key in seen:
-                        continue
-
-                    seen.add(key)
-                    bosses.append(
-                        self._build_boss(
-                            boss_name=boss_name,
-                            portal=portal,
-                            map_object=map_object,
-                            world=world,
-                            object_index=object_index,
-                            behavior_index=behavior_index,
-                        )
-                    )
-
-        self.resolved = bosses
-        return self.resolved
-
-    def save(self) -> None:
-        """Persist resolved bosses under the workspace database directory."""
-
-        self.output_dir.mkdir(parents=True, exist_ok=True)
-
-        by_portal: dict[str, list[dict[str, object]]] = {}
-        for boss in self.resolved:
-            by_portal.setdefault(boss.portal_name, []).append(boss.to_dict())
-
-        summary = {
-            "total": len(self.resolved),
-            "portals": by_portal,
-        }
-
-        with (self.output_dir / "bosses.json").open("w", encoding="utf8") as file:
-            json.dump(summary, file, indent=4, ensure_ascii=False)
-
-        for portal_name, bosses in by_portal.items():
-            portal_dir = self.output_dir / self._slugify(portal_name)
-            portal_dir.mkdir(parents=True, exist_ok=True)
-
-            with (portal_dir / "bosses.json").open("w", encoding="utf8") as file:
-                json.dump(
-                    {"total": len(bosses), "bosses": bosses},
-                    file,
-                    indent=4,
-                    ensure_ascii=False,
-                )
-
-            for boss in bosses:
-                with (
-                    portal_dir / f"{self._slugify(str(boss['name']))}.json"
-                ).open("w", encoding="utf8") as file:
-                    json.dump(boss, file, indent=4, ensure_ascii=False)
-
-    def _validate_inputs(self) -> None:
-        if not self.source_path.exists():
-            raise FileNotFoundError(f"Source path not found: {self.source_path}")
-
-        if not self.portals_path.exists():
-            raise FileNotFoundError(f"Portals database not found: {self.portals_path}")
-
-    def _load_portals(self) -> list[dict[str, str]]:
-        with self.portals_path.open("r", encoding="utf8") as file:
-            data = json.load(file)
-
-        return [
-            portal for portal in data.get("portals", [])
-            if portal.get("enabled", True)
-        ]
-
-    def _load_worlds(self) -> dict[str, dict[str, object]]:
-        worlds: dict[str, dict[str, object]] = {}
-
-        for path in self.source_path.rglob("*.jw"):
-            raw = path.read_text(encoding="utf8", errors="ignore")
-            name_match = re.search(r'"name"\s*:\s*"([^"]+)"', raw)
-            if name_match is None:
-                continue
-
-            maps_match = re.search(r'"maps"\s*:\s*\[(.*?)\]', raw, re.DOTALL)
-            maps = re.findall(r'"([^"]+\.(?:jm|wmap))"', maps_match.group(1)) if maps_match else []
-
-            world = {
-                "name": name_match.group(1),
-                "maps": maps,
-                "source_file": path.relative_to(self.source_path).as_posix(),
-                "directory": path.parent,
-            }
-            worlds[self._normalize(str(world["name"]))] = world
-
-        return worlds
-
-    def _load_map_objects(self, world: dict[str, object]) -> list[dict[str, str]]:
-        objects: list[dict[str, str]] = []
-        directory = world["directory"]
-        if not isinstance(directory, Path):
-            return objects
-
-        for map_name in world["maps"]:
-            map_path = directory / str(map_name)
-            if map_path.suffix.lower() != ".jm" or not map_path.exists():
-                continue
-
-            with map_path.open("r", encoding="utf8") as file:
-                map_data = json.load(file)
-
-            for entry in map_data.get("dict", []):
-                for obj in entry.get("objs", []):
-                    object_id = obj.get("id", "")
-                    if object_id:
-                        objects.append({
-                            "id": object_id,
-                            "map": map_path.relative_to(self.source_path).as_posix(),
-                        })
-
-        return objects
-
-    def _load_behavior_index(self) -> dict[str, dict[str, object]]:
-        behavior_index: dict[str, dict[str, object]] = {}
-        init_pattern = re.compile(r'\.Init\("([^"]+)"\s*,')
-
-        for path in (self.source_path / "server").rglob("*.cs"):
-            text = path.read_text(encoding="utf8", errors="ignore")
-            matches = list(init_pattern.finditer(text))
-
-            for index, match in enumerate(matches):
-                block_end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-                block = text[match.start():block_end]
-                behavior_index[match.group(1)] = {
-                    "source_file": path.relative_to(self.source_path).as_posix(),
-                    "spawns": sorted(set(re.findall(r'new\s+Spawn\("([^"]+)"', block))),
-                }
-
-        return behavior_index
-
-    def _load_object_index(self) -> dict[str, dict[str, object]]:
-        object_index: dict[str, dict[str, object]] = {}
-
-        for path in self.source_path.rglob("*.xml"):
-            try:
-                root = ET.parse(path).getroot()
-            except ET.ParseError:
-                continue
-
-            for node in root.iter():
-                if self._local_name(node.tag) != "Object":
-                    continue
-
-                object_id = node.attrib.get("id", "")
-                if not object_id:
-                    continue
-
-                current = object_index.setdefault(object_id, {
-                    "object_id": object_id,
-                    "object_type": node.attrib.get("type", ""),
-                    "display_id": self._text(node, "DisplayId"),
-                    "group": self._text(node, "Group"),
-                    "class_name": self._text(node, "Class"),
-                    "enemy": node.find("Enemy") is not None,
-                    "quest": node.find("Quest") is not None,
-                    "texture_file": "",
-                    "texture_index": "",
-                    "source_files": [],
-                })
-
-                texture = node.find("Texture")
-                if texture is not None and not current["texture_file"]:
-                    current["texture_file"] = self._text(texture, "File")
-                    current["texture_index"] = self._text(texture, "Index")
-
-                source_file = path.relative_to(self.source_path).as_posix()
-                if source_file not in current["source_files"]:
-                    current["source_files"].append(source_file)
-
-        return object_index
-
-    def _resolve_map_object_boss_names(
-        self,
-        map_object: dict[str, str],
-        behavior_index: dict[str, dict[str, object]],
-        object_index: dict[str, dict[str, object]],
-    ) -> list[str]:
-        object_id = map_object["id"]
-        behavior = behavior_index.get(object_id)
-        if behavior is not None:
-            return list(behavior["spawns"])
-
-        obj = object_index.get(object_id)
-        if obj is not None and (obj["enemy"] or obj["quest"]):
-            return [object_id]
-
-        return []
-
-    def _build_boss(
-        self,
-        boss_name: str,
-        portal: dict[str, str],
-        map_object: dict[str, str],
-        world: dict[str, object],
-        object_index: dict[str, dict[str, object]],
-        behavior_index: dict[str, dict[str, object]],
-    ) -> Boss:
-        source = object_index.get(boss_name, {})
-        source_files = set(source.get("source_files", []))
-        behavior = behavior_index.get(boss_name)
-        if behavior is not None:
-            source_files.add(str(behavior["source_file"]))
-
-        spawner_behavior = behavior_index.get(map_object["id"])
-        evidence = [
-            f"portal:{portal['name']}",
-            f"world:{world['name']}",
-            f"map:{map_object['map']}",
-            f"map_object:{map_object['id']}",
-        ]
-        if spawner_behavior is not None:
-            evidence.append(f"spawner_behavior:{spawner_behavior['source_file']}")
-        if behavior is not None:
-            evidence.append(f"boss_behavior:{behavior['source_file']}")
-
-        return Boss(
-            name=boss_name,
-            portal_name=portal["name"],
-            difficulty=portal["difficulty"],
-            object_id=str(source.get("object_id", boss_name)),
-            object_type=str(source.get("object_type", "")),
-            display_id=str(source.get("display_id", "")),
-            group=str(source.get("group", "")),
-            class_name=str(source.get("class_name", "")),
-            enemy=bool(source.get("enemy", False)),
-            quest=bool(source.get("quest", False)),
-            texture_file=str(source.get("texture_file", "")),
-            texture_index=str(source.get("texture_index", "")),
-            source_files=sorted(source_files),
-            evidence=evidence,
+    def _build_boss(self, data: Dict[str, Any]) -> Boss:
+        boss = Boss(
+            id=str(data.get("id", "")),
+            name=str(data.get("name", "")),
+            raw=data
         )
 
-    def _text(self, node: ET.Element | None, tag: str) -> str:
-        if node is None:
-            return ""
+        boss.aliases = self._extract_aliases(data)
+        boss.phases = data.get("phases", []) or []
+        boss.loot_table = data.get("loot", []) or []
+        boss.stats = data.get("stats", {}) or {}
 
-        child = node.find(tag)
-        if child is None or child.text is None:
-            return ""
+        return boss
 
-        return child.text.strip()
+    def _register(self, boss: Boss) -> None:
+        self._bosses_by_id[boss.id] = boss
 
-    def _local_name(self, tag: str) -> str:
-        return tag.rsplit("}", 1)[-1]
+        normalized_name = self.normalize(boss.name)
+        self._bosses_by_name[normalized_name] = boss
+        self._name_index.append(normalized_name)
 
-    def _normalize(self, value: str) -> str:
-        return re.sub(r"[^a-z0-9]+", "", value.casefold())
+        for alias in boss.aliases:
+            self._bosses_by_name[self.normalize(alias)] = boss
+            self._name_index.append(self.normalize(alias))
 
-    def _slugify(self, value: str) -> str:
-        slug = re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
-        return slug or "boss"
+    # -----------------------------
+    # Normalization
+    # -----------------------------
+
+    def normalize(self, text: str) -> str:
+        text = text.lower().strip()
+        text = re.sub(r"[^a-z0-9\s]", "", text)
+        text = re.sub(r"\s+", " ", text)
+        return text
+
+    def _extract_aliases(self, data: Dict[str, Any]) -> List[str]:
+        aliases = data.get("aliases", [])
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        return [a for a in aliases if a]
+
+    # -----------------------------
+    # Resolution API
+    # -----------------------------
+
+    def resolve(self, query: str) -> Optional[Boss]:
+        """
+        Resolve a boss by:
+        - ID
+        - Exact name / alias
+        - Fuzzy match fallback
+        """
+
+        if not query:
+            return None
+
+        # 1. Direct ID
+        if query in self._bosses_by_id:
+            return self._bosses_by_id[query]
+
+        norm = self.normalize(query)
+
+        # 2. Exact name/alias match
+        if norm in self._bosses_by_name:
+            return self._bosses_by_name[norm]
+
+        # 3. Fuzzy match fallback
+        return self._fuzzy_resolve(norm)
+
+    def _fuzzy_resolve(self, norm_query: str) -> Optional[Boss]:
+        matches = difflib.get_close_matches(norm_query, self._name_index, n=1, cutoff=0.75)
+
+        if not matches:
+            return None
+
+        best = matches[0]
+        return self._bosses_by_name.get(best)
+
+    # -----------------------------
+    # Enrichment Layer (Wiki Core)
+    # -----------------------------
+
+    def enrich_boss(self, boss: Boss) -> Dict[str, Any]:
+        """
+        Transforms raw boss data into Wiki-ready structure.
+        This is where intelligence expansion happens.
+        """
+
+        return {
+            "id": boss.id,
+            "name": boss.name,
+            "aliases": boss.aliases,
+            "stats": self._normalize_stats(boss.stats),
+            "phases": self._normalize_phases(boss.phases),
+            "loot": self._normalize_loot(boss.loot_table),
+            "summary": self._generate_summary(boss),
+        }
+
+    def _normalize_stats(self, stats: Dict[str, Any]) -> Dict[str, Any]:
+        return {
+            k: v for k, v in stats.items()
+            if v is not None
+        }
+
+    def _normalize_phases(self, phases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        cleaned = []
+        for i, p in enumerate(phases):
+            cleaned.append({
+                "index": i,
+                "name": p.get("name", f"Phase {i+1}"),
+                "hp_threshold": p.get("hpThreshold"),
+                "abilities": p.get("abilities", [])
+            })
+        return cleaned
+
+    def _normalize_loot(self, loot: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        return [
+            {
+                "item": drop.get("item"),
+                "rate": drop.get("rate"),
+                "quantity": drop.get("quantity", 1)
+            }
+            for drop in loot
+        ]
+
+    def _generate_summary(self, boss: Boss) -> str:
+        hp = boss.stats.get("hp", "unknown")
+        defense = boss.stats.get("defense", "unknown")
+        phases = len(boss.phases)
+
+        return (
+            f"{boss.name} is a boss entity with {hp} HP and {defense} DEF. "
+            f"It has {phases} phase(s) and a structured loot table."
+        )
+
+    # -----------------------------
+    # Debug / Inspection
+    # -----------------------------
+
+    def list_bosses(self) -> List[str]:
+        return list(self._bosses_by_id.keys())
+
+    def get_raw(self, boss_id: str) -> Optional[Dict[str, Any]]:
+        boss = self._bosses_by_id.get(boss_id)
+        return boss.raw if boss else None

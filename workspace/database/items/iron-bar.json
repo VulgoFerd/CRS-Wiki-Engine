@@ -1,0 +1,32 @@
+{
+    "name": "Iron Bar",
+    "object_id": "Iron Bar",
+    "object_type": "0x8ca8",
+    "display_id": "Iron Bar",
+    "class_name": "Equipment",
+    "slot_type": 10,
+    "tier": null,
+    "description": "A Minecraft forge material dropped by Zombi.",
+    "texture_file": "MinecraftItems",
+    "texture_index": "0x03",
+    "bag_type": 10,
+    "feed_power": 400,
+    "soulbound": false,
+    "usable": false,
+    "no_loot_boost": true,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "dropped_by": [
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Zombi",
+            "probability": 0.05,
+            "raw_probability": "1 / 20f",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        }
+    ]
+}

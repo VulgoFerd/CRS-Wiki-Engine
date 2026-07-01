@@ -1,0 +1,32 @@
+{
+    "name": "Creeper Head",
+    "object_id": "Creeper Head",
+    "object_type": "0x8ca6",
+    "display_id": "Creeper Head",
+    "class_name": "Equipment",
+    "slot_type": 10,
+    "tier": null,
+    "description": "A trophy head dropped by Creeper.",
+    "texture_file": "MinecraftItems",
+    "texture_index": "0x01",
+    "bag_type": 11,
+    "feed_power": 750,
+    "soulbound": false,
+    "usable": false,
+    "no_loot_boost": true,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "dropped_by": [
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Creeper",
+            "probability": 0.03333333333333333,
+            "raw_probability": "1 / 30f",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        }
+    ]
+}

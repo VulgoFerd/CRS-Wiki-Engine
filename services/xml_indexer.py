@@ -7,8 +7,16 @@ import json
 class XMLIndexer:
 
     def __init__(self, source_path: str):
+
         self.source = Path(source_path)
+
         self.index = {}
+
+        self.statistics = {
+            "processed": 0,
+            "failed": 0,
+            "elements": Counter(),
+        }
 
     def build(self):
 
@@ -20,14 +28,27 @@ class XMLIndexer:
                 root = tree.getroot()
 
                 counter = Counter()
+                node_count = 0
 
                 for node in root.iter():
+
                     counter[node.tag] += 1
+                    self.statistics["elements"][node.tag] += 1
+                    node_count += 1
 
-                self.index[str(xml.relative_to(self.source))] = dict(counter)
+                self.index[str(xml.relative_to(self.source))] = {
+                    "root": root.tag,
+                    "nodes": node_count,
+                    "tags": dict(counter),
+                }
 
-            except Exception:
-                continue
+                self.statistics["processed"] += 1
+
+            except Exception as error:
+
+                self.statistics["failed"] += 1
+
+                print(f"Failed to parse '{xml}': {error}")
 
     def save(self):
 
@@ -35,5 +56,20 @@ class XMLIndexer:
 
         output.parent.mkdir(parents=True, exist_ok=True)
 
-        with output.open("w", encoding="utf8") as f:
-            json.dump(self.index, f, indent=4)
+        data = {
+            "statistics": {
+                "processed": self.statistics["processed"],
+                "failed": self.statistics["failed"],
+                "elements": dict(self.statistics["elements"]),
+            },
+            "files": self.index,
+        }
+
+        with output.open("w", encoding="utf8") as file:
+
+            json.dump(
+                data,
+                file,
+                indent=4,
+                ensure_ascii=False,
+            )

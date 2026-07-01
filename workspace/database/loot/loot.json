@@ -1,0 +1,4273 @@
+{
+    "total": 234,
+    "portals": {
+        "OVERWORLD": {
+            "Creeper": [
+                {
+                    "item_name": "Creeper Head",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.03333333333333333,
+                    "raw_probability": "1 / 30f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.45,
+                    "raw_probability": "0.45",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Creeper",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Creeper",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Pillager": [
+                {
+                    "item_name": "Pillager Head",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.03333333333333333,
+                    "raw_probability": "1 / 30f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.5,
+                    "raw_probability": "0.5",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Pillager",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Pillager",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Slime": [
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.4,
+                    "raw_probability": "0.4",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Slime",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Slime",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Zombi": [
+                {
+                    "item_name": "Zombi Head",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.03333333333333333,
+                    "raw_probability": "1 / 30f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Iron Bar",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.05,
+                    "raw_probability": "1 / 20f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 0.42,
+                    "raw_probability": "0.42",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Defense",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Attack",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Speed",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Vitality",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Wisdom",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Potion of Dexterity",
+                    "boss_name": "Zombi",
+                    "portal_name": "OVERWORLD",
+                    "difficulty": "earlygame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "LootTemplates.StatPots()",
+                    "evidence": [
+                        "boss:Zombi",
+                        "portal:OVERWORLD",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ]
+        },
+        "Minnesota": {
+            "Billy Herrington": [
+                {
+                    "item_name": "ANIKI PRISM",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0015151515151515152,
+                    "raw_probability": "1 / 660f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "ass dagger",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Sex DUNGEON Key",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "robes of cock",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "SLAVE BOW",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T3 Upgrade",
+                    "boss_name": "Billy Herrington",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Billy Herrington",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Herobrine": [
+                {
+                    "item_name": "diamond chestplate",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "mc shield irons",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "steve head STOLEN",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Alvin Craft Key",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "DiAMOND SWORD",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Diamond Pickaxe",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T3 Upgrade",
+                    "boss_name": "Herobrine",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Herobrine",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "baldi": [
+                {
+                    "item_name": "baldi HEAD why dead",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0018181818181818182,
+                    "raw_probability": "1 / 550f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "pencil staff",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "baldi Key",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "PENCIL CUTTER",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "SWEDEN GANG",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "NOTEBOOK BALDI",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T3 Upgrade",
+                    "boss_name": "baldi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:baldi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "dancing triangle": [
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "triangle helmet",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "for real this time",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.01818181818181818,
+                    "raw_probability": "1 / 55f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "shape shoes",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "yellows sword",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "dancing triangle",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:dancing triangle",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "finnish warrior": [
+                {
+                    "item_name": "DANGER PASKA",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "hide armor",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "finsword",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "FINLAND key",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "suomi perkele",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "FINLAND SCEPTER",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "FINLAND PRIDE",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 5.0408307289041234e-05,
+                    "raw_probability": "1 / 19838f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "finnish warrior",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:finnish warrior",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "hatsune mike": [
+                {
+                    "item_name": "miku Key",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "microphone left",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "hatsune miku",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "microphone right",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "6 dolla r :)",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0022727272727272726,
+                    "raw_probability": "1 / 440f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "hatsune mike",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.010309278350515464,
+                    "raw_probability": "1 / 97f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:hatsune mike",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "octahedron LEGS": [
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "dagger hedron",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "pink pickle thung",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "octahedron LAIR Key",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T6 Upgrade",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "what the fuck",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "octahedron",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0012987012987012987,
+                    "raw_probability": "1 / 770f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "LEGS",
+                    "boss_name": "octahedron LEGS",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0012987012987012987,
+                    "raw_probability": "1 / 770f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:octahedron LEGS",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "puggsy": [
+                {
+                    "item_name": "Invulnerability Shield",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.00030303030303030303,
+                    "raw_probability": "1 / 3300f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.058823529411764705,
+                    "raw_probability": "1 / 17f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.03571428571428571,
+                    "raw_probability": "1 / 28f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.01639344262295082,
+                    "raw_probability": "1 / 61f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.013888888888888888,
+                    "raw_probability": "1 / 72f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.02564102564102564,
+                    "raw_probability": "1 / 39f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.02,
+                    "raw_probability": "1 / 50f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T5 Upgrade",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tomatoes",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "throwing quiver",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "poggy gun",
+                    "boss_name": "puggsy",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:puggsy",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "shoop da woop": [
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "LAZER GUN REAL",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.004545454545454545,
+                    "raw_probability": "1 / 220f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "LAZER ESENZE",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "rainbow road key",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "rainbow SEAL",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "LAZAH",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "shoop da woop",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:shoop da woop",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "soulja boi": [
+                {
+                    "item_name": "Legendsary Token 1",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Orendands Ring",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Cash Robe",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "cash trap",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Soulja in Egypt key",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "money hide",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "dollar STAR",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T3 Upgrade",
+                    "boss_name": "soulja boi",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:soulja boi",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "sun baby": [
+                {
+                    "item_name": "sun bottle",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "sunblade",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Sun Field key",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T5 Upgrade",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "sunbab2",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "sun book",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "sunburnt robe",
+                    "boss_name": "sun baby",
+                    "portal_name": "Minnesota",
+                    "difficulty": "midgame",
+                    "drop_type": "item",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:sun baby",
+                        "portal:Minnesota",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ]
+        },
+        "Caelid Wilds": {
+            "GUMBALL": [
+                {
+                    "item_name": "50k Fame",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "gumy staff",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "yetimi gay rat",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Gumball Land Key",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "mouldy YUM YUM",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T8 Upgrade",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "sealed candy skull",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0022727272727272726,
+                    "raw_probability": "1 / 440f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "GUMBALL",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:GUMBALL",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Interactive Buddy": [
+                {
+                    "item_name": "50k Fame",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "5000 Fame",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.045454545454545456,
+                    "raw_probability": "1 / 22f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Space Key",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "viva la vida",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "midnight",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "interactivity",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T6 Upgrade",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "interactive dagger",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Peace of Mind",
+                    "boss_name": "Interactive Buddy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.00001)",
+                    "evidence": [
+                        "boss:Interactive Buddy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Mindy": [
+                {
+                    "item_name": "CARAMELLA MIC",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "MISSA INTE CHANSEN",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "NU Ã„R VI HÃ„R MED",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Caramelldansen Key",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "eye of gardens",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T6 Upgrade",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Mindy",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Mindy",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Nadine": [
+                {
+                    "item_name": "KLAPPA ERA HÃ„NDER",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "LYSSNA OCH LÃ„R",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "jag skar mig i fingret",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "dancer prancer",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Caramelldansen Key",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "ASGARD Token",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.010309278350515464,
+                    "raw_probability": "1 / 97f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "FAVELA Token",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.007246376811594203,
+                    "raw_probability": "1 / 138f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "A Fallen Light (Token)",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T6 Upgrade",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "GÃ–R SOM VI GÃ–R",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Nadine",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nadine",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Nightmare Orange": [
+                {
+                    "item_name": "Dreadcull T7 Upgrade",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "staff Orange Nightmare",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "summer realms Katana but a sword",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "summer realms Katana but a katana",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Nightmare Kitchen Key",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "evil Helmets Tangerine",
+                    "boss_name": "Nightmare Orange",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Nightmare Orange",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Tong Shau Ping": [
+                {
+                    "item_name": "50k Fame",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "5000 Fame",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.045454545454545456,
+                    "raw_probability": "1 / 22f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "fuckin ugly reds",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "balo seal",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Hong Kong Key",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T7 Upgrade",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "kong hong 97",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "she Hong my Kong",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "alvin realms is gonna disappear",
+                    "boss_name": "Tong Shau Ping",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0018181818181818182,
+                    "raw_probability": "1 / 550f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Tong Shau Ping",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "Vera": [
+                {
+                    "item_name": "GAMER BELT",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "CARAMEL EXPERIENCE",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.010101010101010102,
+                    "raw_probability": "1 / 99f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "bikini trap",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Caramelldansen Key",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T6 Upgrade",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "BLOWN THE FUCK OUT",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Deep Sea Token",
+                    "boss_name": "Vera",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:Vera",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "a flare v2": [
+                {
+                    "item_name": "Darkstone Pickaxe",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Rocc",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "rexr Key",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "a flarev2",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.002421307506053269,
+                    "raw_probability": "1 / 413f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "prism of prism of chaos",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tisk tisk maybe YOURE",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "a flare v2",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:a flare v2",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "cakecore": [
+                {
+                    "item_name": "Darkstone Pickaxe",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Rocc",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "a flarev2",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "rexr Key",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "prism of prism of chaos",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tisk tisk maybe YOURE",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "cakecore",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:cakecore",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ],
+            "prism of chaos": [
+                {
+                    "item_name": "Darkstone Pickaxe",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Rocc",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "rexr Key",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "a flarev2",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "prism of prism of chaos",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "tisk tisk maybe YOURE",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Dreadcull T4 Upgrade",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                },
+                {
+                    "item_name": "Spaceship Token",
+                    "boss_name": "prism of chaos",
+                    "portal_name": "Caelid Wilds",
+                    "difficulty": "endgame",
+                    "drop_type": "item",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "tier": null,
+                    "item_type": "",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                    "source_context": "Threshold(0.0001)",
+                    "evidence": [
+                        "boss:prism of chaos",
+                        "portal:Caelid Wilds",
+                        "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                    ]
+                }
+            ]
+        }
+    }
+}

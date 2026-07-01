@@ -5,9 +5,11 @@ import argparse
 from rich.console import Console
 
 from services.boss_resolver import BossResolver
+from services.item_resolver import ItemResolver
 from services.loot_resolver import LootResolver
 from services.manifest_service import ManifestService
 from services.portal_scanner import PortalScanner
+from services.sprite_resolver import SpriteResolver
 from services.source_analyzer import SourceAnalyzer
 from services.xml_indexer import XMLIndexer
 
@@ -57,6 +59,14 @@ class Application:
         drops = loot_resolver.resolve()
         loot_resolver.save()
 
+        item_resolver = ItemResolver(source_path=source_path)
+        items = item_resolver.resolve()
+        item_resolver.save()
+
+        sprite_resolver = SpriteResolver(source_path=source_path)
+        sprites = sprite_resolver.resolve()
+        sprite_resolver.save()
+
         self.console.print(
             f"[green]PortalScanner completed:[/green] "
             f"{len(discovered)} portal(s) discovered."
@@ -68,6 +78,14 @@ class Application:
         self.console.print(
             f"[green]LootResolver completed:[/green] "
             f"{len(drops)} drop(s) resolved."
+        )
+        self.console.print(
+            f"[green]ItemResolver completed:[/green] "
+            f"{len(items)} item(s) resolved."
+        )
+        self.console.print(
+            f"[green]SpriteResolver completed:[/green] "
+            f"{len(sprites)} sprite(s) resolved."
         )
 
     def _parse_args(self) -> argparse.Namespace:

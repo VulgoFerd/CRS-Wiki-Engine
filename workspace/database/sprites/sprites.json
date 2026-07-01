@@ -1,0 +1,247 @@
+{
+    "total": 10,
+    "unresolved_total": 0,
+    "sprites": [
+        {
+            "owner_type": "item",
+            "owner_name": "Creeper Head",
+            "texture_file": "MinecraftItems",
+            "texture_index": "0x01",
+            "index": 1,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png",
+            "atlas_width": 144,
+            "atlas_height": 16,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 8,
+            "y": 0,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Creeper Head",
+                "texture:MinecraftItems",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Iron Bar",
+            "texture_file": "MinecraftItems",
+            "texture_index": "0x03",
+            "index": 3,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png",
+            "atlas_width": 144,
+            "atlas_height": 16,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 24,
+            "y": 0,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Iron Bar",
+                "texture:MinecraftItems",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Pillager Head",
+            "texture_file": "MinecraftItems",
+            "texture_index": "0x00",
+            "index": 0,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png",
+            "atlas_width": 144,
+            "atlas_height": 16,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 0,
+            "y": 0,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Pillager Head",
+                "texture:MinecraftItems",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Attack",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x102",
+            "index": 258,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 16,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Attack",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Defense",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x103",
+            "index": 259,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 24,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Defense",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Dexterity",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x105",
+            "index": 261,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 40,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Dexterity",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Speed",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x104",
+            "index": 260,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 32,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Speed",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Vitality",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x106",
+            "index": 262,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 48,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Vitality",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Potion of Wisdom",
+            "texture_file": "d3LofiObjEmbed",
+            "texture_index": "0x107",
+            "index": 263,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+            "atlas_width": 128,
+            "atlas_height": 600,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 56,
+            "y": 128,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Potion of Wisdom",
+                "texture:d3LofiObjEmbed",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+            ]
+        },
+        {
+            "owner_type": "item",
+            "owner_name": "Zombi Head",
+            "texture_file": "MinecraftItems",
+            "texture_index": "0x02",
+            "index": 2,
+            "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png",
+            "atlas_width": 144,
+            "atlas_height": 16,
+            "tile_width": 8,
+            "tile_height": 8,
+            "x": 16,
+            "y": 0,
+            "source_files": [
+                "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+                "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+                "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+            ],
+            "evidence": [
+                "item:Zombi Head",
+                "texture:MinecraftItems",
+                "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png"
+            ]
+        }
+    ],
+    "unresolved": []
+}

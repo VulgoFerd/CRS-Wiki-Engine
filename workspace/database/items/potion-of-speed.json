@@ -1,0 +1,88 @@
+{
+    "name": "Potion of Speed",
+    "object_id": "Potion of Speed",
+    "object_type": "0xa21",
+    "display_id": "",
+    "class_name": "Equipment",
+    "slot_type": 10,
+    "tier": 2,
+    "description": "A potion that permanently increases speed by 1.",
+    "texture_file": "d3LofiObjEmbed",
+    "texture_index": "0x104",
+    "bag_type": 5,
+    "feed_power": 150,
+    "soulbound": false,
+    "usable": false,
+    "no_loot_boost": false,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "dropped_by": [
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Creeper",
+            "probability": 0.45,
+            "raw_probability": "0.45",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Creeper",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "source_context": "LootTemplates.StatPots()",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Pillager",
+            "probability": 0.5,
+            "raw_probability": "0.5",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Pillager",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "source_context": "LootTemplates.StatPots()",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Slime",
+            "probability": 0.4,
+            "raw_probability": "0.4",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Slime",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "source_context": "LootTemplates.StatPots()",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Zombi",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "source_context": "Threshold(0.0001)",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        },
+        {
+            "portal_name": "OVERWORLD",
+            "boss_name": "Zombi",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "source_context": "LootTemplates.StatPots()",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+        }
+    ]
+}

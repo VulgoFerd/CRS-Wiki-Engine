@@ -1,0 +1,113 @@
+{
+    "total": 6,
+    "drops": [
+        {
+            "item_name": "Dreadcull T7 Upgrade",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "staff Orange Nightmare",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006060606060606061,
+            "raw_probability": "1 / 165f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "summer realms Katana but a sword",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006060606060606061,
+            "raw_probability": "1 / 165f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "summer realms Katana but a katana",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006060606060606061,
+            "raw_probability": "1 / 165f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Nightmare Kitchen Key",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "evil Helmets Tangerine",
+            "boss_name": "Nightmare Orange",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006060606060606061,
+            "raw_probability": "1 / 165f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Nightmare Orange",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

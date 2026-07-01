@@ -296,12 +296,25 @@
         ".git\\objects\\0b",
         ".git\\objects\\12",
         ".git\\objects\\26",
+        ".git\\objects\\36",
+        ".git\\objects\\3c",
         ".git\\objects\\54",
+        ".git\\objects\\72",
         ".git\\objects\\85",
+        ".git\\objects\\87",
+        ".git\\objects\\8c",
+        ".git\\objects\\90",
+        ".git\\objects\\a5",
+        ".git\\objects\\a6",
+        ".git\\objects\\af",
         ".git\\objects\\b2",
         ".git\\objects\\ba",
+        ".git\\objects\\d1",
+        ".git\\objects\\d2",
+        ".git\\objects\\d3",
         ".git\\objects\\da",
         ".git\\objects\\dc",
+        ".git\\objects\\e9",
         ".git\\objects\\info",
         ".git\\objects\\pack",
         ".git\\refs\\heads",
@@ -738,6 +751,6 @@
     ],
     "statistics": {
         "xml_files": 260,
-        "directories": 473
+        "directories": 486
     }
 }

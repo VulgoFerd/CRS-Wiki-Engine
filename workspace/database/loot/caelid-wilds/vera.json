@@ -1,0 +1,149 @@
+{
+    "total": 8,
+    "drops": [
+        {
+            "item_name": "GAMER BELT",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "CARAMEL EXPERIENCE",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.010101010101010102,
+            "raw_probability": "1 / 99f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "bikini trap",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Caramelldansen Key",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T6 Upgrade",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "BLOWN THE FUCK OUT",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006578947368421052,
+            "raw_probability": "1 / 152f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Deep Sea Token",
+            "boss_name": "Vera",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Vera",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

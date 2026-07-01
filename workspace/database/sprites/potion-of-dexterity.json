@@ -1,0 +1,24 @@
+{
+    "owner_type": "item",
+    "owner_name": "Potion of Dexterity",
+    "texture_file": "d3LofiObjEmbed",
+    "texture_index": "0x105",
+    "index": 261,
+    "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png",
+    "atlas_width": 128,
+    "atlas_height": 600,
+    "tile_width": 8,
+    "tile_height": 8,
+    "x": 40,
+    "y": 128,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "evidence": [
+        "item:Potion of Dexterity",
+        "texture:d3LofiObjEmbed",
+        "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_d3LofiObjEmbed_.png"
+    ]
+}

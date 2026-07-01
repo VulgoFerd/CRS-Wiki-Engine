@@ -1,0 +1,149 @@
+{
+    "total": 8,
+    "drops": [
+        {
+            "item_name": "CARAMELLA MIC",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "MISSA INTE CHANSEN",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "NU Ã„R VI HÃ„R MED",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Caramelldansen Key",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "eye of gardens",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T6 Upgrade",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006578947368421052,
+            "raw_probability": "1 / 152f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Deep Sea Token",
+            "boss_name": "Mindy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Mindy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

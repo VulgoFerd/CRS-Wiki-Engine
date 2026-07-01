@@ -1,0 +1,949 @@
+{
+    "total": 52,
+    "bosses": {
+        "Creeper": [
+            {
+                "item_name": "Creeper Head",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.03333333333333333,
+                "raw_probability": "1 / 30f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.45,
+                "raw_probability": "0.45",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Creeper",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Creeper",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Pillager": [
+            {
+                "item_name": "Pillager Head",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.03333333333333333,
+                "raw_probability": "1 / 30f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.5,
+                "raw_probability": "0.5",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Pillager",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Pillager",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Slime": [
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.4,
+                "raw_probability": "0.4",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Slime",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Slime",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ],
+        "Zombi": [
+            {
+                "item_name": "Zombi Head",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.03333333333333333,
+                "raw_probability": "1 / 30f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Iron Bar",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.05,
+                "raw_probability": "1 / 20f",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 0.42,
+                "raw_probability": "0.42",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "Threshold(0.0001)",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Defense",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Attack",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Speed",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Vitality",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Wisdom",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            },
+            {
+                "item_name": "Potion of Dexterity",
+                "boss_name": "Zombi",
+                "portal_name": "OVERWORLD",
+                "difficulty": "earlygame",
+                "drop_type": "item",
+                "probability": 1.0,
+                "raw_probability": "1",
+                "tier": null,
+                "item_type": "",
+                "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+                "source_context": "LootTemplates.StatPots()",
+                "evidence": [
+                    "boss:Zombi",
+                    "portal:OVERWORLD",
+                    "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+                ]
+            }
+        ]
+    }
+}

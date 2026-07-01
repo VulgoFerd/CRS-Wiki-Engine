@@ -1,0 +1,257 @@
+{
+    "total": 14,
+    "drops": [
+        {
+            "item_name": "Zombi Head",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.03333333333333333,
+            "raw_probability": "1 / 30f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Iron Bar",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.05,
+            "raw_probability": "1 / 20f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Vitality",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Dexterity",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Speed",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Attack",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Defense",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Wisdom",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 0.42,
+            "raw_probability": "0.42",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Defense",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Attack",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Speed",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Vitality",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Wisdom",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Potion of Dexterity",
+            "boss_name": "Zombi",
+            "portal_name": "OVERWORLD",
+            "difficulty": "earlygame",
+            "drop_type": "item",
+            "probability": 1.0,
+            "raw_probability": "1",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "LootTemplates.StatPots()",
+            "evidence": [
+                "boss:Zombi",
+                "portal:OVERWORLD",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

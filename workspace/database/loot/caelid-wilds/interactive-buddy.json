@@ -1,0 +1,203 @@
+{
+    "total": 11,
+    "drops": [
+        {
+            "item_name": "50k Fame",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "5000 Fame",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.045454545454545456,
+            "raw_probability": "1 / 22f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Deep Space Key",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "viva la vida",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "midnight",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "interactivity",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T6 Upgrade",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "interactive dagger",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.00909090909090909,
+            "raw_probability": "1 / 110f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Deep Sea Token",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.006578947368421052,
+            "raw_probability": "1 / 152f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Peace of Mind",
+            "boss_name": "Interactive Buddy",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.00001)",
+            "evidence": [
+                "boss:Interactive Buddy",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}

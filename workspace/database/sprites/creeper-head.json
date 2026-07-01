@@ -1,0 +1,24 @@
+{
+    "owner_type": "item",
+    "owner_name": "Creeper Head",
+    "texture_file": "MinecraftItems",
+    "texture_index": "0x01",
+    "index": 1,
+    "atlas_path": "client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png",
+    "atlas_width": 144,
+    "atlas_height": 16,
+    "tile_width": 8,
+    "tile_height": 8,
+    "x": 8,
+    "y": 0,
+    "source_files": [
+        "client/src/kabam/rotmg/assets/EmbeddedData_EquipCXML.xml",
+        "server/bin_build/resources/xmls/client/EmbeddedData_EquipCXML.xml",
+        "server/common/resources/xmls/client/EmbeddedData_EquipCXML.xml"
+    ],
+    "evidence": [
+        "item:Creeper Head",
+        "texture:MinecraftItems",
+        "atlas:client/src/kabam/rotmg/assets/EmbeddedAssets_MinecraftItemsEmbed_.png"
+    ]
+}

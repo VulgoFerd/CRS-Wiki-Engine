@@ -1,0 +1,2157 @@
+{
+    "total": 116,
+    "items": [
+        {
+            "item_name": "5000 Fame",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.045454545454545456,
+                    "raw_probability": "1 / 22f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.045454545454545456,
+                    "raw_probability": "1 / 22f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "50k Fame",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "6 dolla r :)",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.0022727272727272726,
+                    "raw_probability": "1 / 440f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "A Fallen Light (Token)",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "ANIKI PRISM",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.0015151515151515152,
+                    "raw_probability": "1 / 660f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "ASGARD Token",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.010309278350515464,
+                    "raw_probability": "1 / 97f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Alvin Craft Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "BLOWN THE FUCK OUT",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "CARAMEL EXPERIENCE",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.010101010101010102,
+                    "raw_probability": "1 / 99f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "CARAMELLA MIC",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Caramelldansen Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Cash Robe",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "DANGER PASKA",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Darkstone Pickaxe",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Deep Sea Token",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Deep Space Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "DiAMOND SWORD",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Diamond Pickaxe",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T3 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T4 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T5 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T6 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T7 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Dreadcull T8 Upgrade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "FAVELA Token",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.007246376811594203,
+                    "raw_probability": "1 / 138f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "FINLAND PRIDE",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 5.0408307289041234e-05,
+                    "raw_probability": "1 / 19838f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "FINLAND SCEPTER",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "FINLAND key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "GAMER BELT",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Gumball Land Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "GÃ–R SOM VI GÃ–R",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Hong Kong Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Invulnerability Shield",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.00030303030303030303,
+                    "raw_probability": "1 / 3300f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "KLAPPA ERA HÃ„NDER",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "LAZAH",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "LAZER ESENZE",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "LAZER GUN REAL",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.004545454545454545,
+                    "raw_probability": "1 / 220f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "LEGS",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.0012987012987012987,
+                    "raw_probability": "1 / 770f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "LYSSNA OCH LÃ„R",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Legendsary Token 1",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 1.0,
+                    "raw_probability": "1",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.25,
+                    "raw_probability": "1 / 4f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "MISSA INTE CHANSEN",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "NOTEBOOK BALDI",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "NU Ã„R VI HÃ„R MED",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Nightmare Kitchen Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Orendands Ring",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "PENCIL CUTTER",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Peace of Mind",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Rocc",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "SLAVE BOW",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "SWEDEN GANG",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Sex DUNGEON Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Soulja in Egypt key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.010309278350515464,
+                    "raw_probability": "1 / 97f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.006578947368421052,
+                    "raw_probability": "1 / 152f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.0036363636363636364,
+                    "raw_probability": "1 / 275f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "Sun Field key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "a flarev2",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.002421307506053269,
+                    "raw_probability": "1 / 413f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "alvin realms is gonna disappear",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.0018181818181818182,
+                    "raw_probability": "1 / 550f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "ass dagger",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "baldi HEAD why dead",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.0018181818181818182,
+                    "raw_probability": "1 / 550f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "baldi Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "balo seal",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "bikini trap",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Vera",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "cash trap",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "dagger hedron",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "dancer prancer",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "diamond chestplate",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "dollar STAR",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "evil Helmets Tangerine",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "eye of gardens",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Mindy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "finsword",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "for real this time",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.01818181818181818,
+                    "raw_probability": "1 / 55f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "fuckin ugly reds",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "gumy staff",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "hatsune miku",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "hide armor",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "interactive dagger",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "interactivity",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "jag skar mig i fingret",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nadine",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "kong hong 97",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "mc shield irons",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "microphone left",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "microphone right",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "midnight",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "miku Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "hatsune mike",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "money hide",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "soulja boi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "mouldy YUM YUM",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "octahedron",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.0012987012987012987,
+                    "raw_probability": "1 / 770f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "octahedron LAIR Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "pencil staff",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "baldi",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "pink pickle thung",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "poggy gun",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "prism of prism of chaos",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.0051813471502590676,
+                    "raw_probability": "1 / 193f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "rainbow SEAL",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "rainbow road key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "shoop da woop",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "rexr Key",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.1111111111111111,
+                    "raw_probability": "1 / 9f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "robes of cock",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Billy Herrington",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sealed candy skull",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.0022727272727272726,
+                    "raw_probability": "1 / 440f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "shape shoes",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "she Hong my Kong",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Tong Shau Ping",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "staff Orange Nightmare",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "steve head STOLEN",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "Herobrine",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "summer realms Katana but a katana",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "summer realms Katana but a sword",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Nightmare Orange",
+                    "probability": 0.006060606060606061,
+                    "raw_probability": "1 / 165f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sun book",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sun bottle",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sunbab2",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sunblade",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "sunburnt robe",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "sun baby",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "suomi perkele",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "finnish warrior",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "throwing quiver",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "tisk tisk maybe YOURE",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "a flare v2",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "cakecore",
+                    "probability": 0.002793296089385475,
+                    "raw_probability": "1 / 358f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "prism of chaos",
+                    "probability": 0.0008453085376162299,
+                    "raw_probability": "1 / 1183f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "tomatoes",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.058823529411764705,
+                    "raw_probability": "1 / 17f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.03571428571428571,
+                    "raw_probability": "1 / 28f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.01639344262295082,
+                    "raw_probability": "1 / 61f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.013888888888888888,
+                    "raw_probability": "1 / 72f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.02564102564102564,
+                    "raw_probability": "1 / 39f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.02,
+                    "raw_probability": "1 / 50f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                },
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "puggsy",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "triangle helmet",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.0030303030303030303,
+                    "raw_probability": "1 / 330f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "viva la vida",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "Interactive Buddy",
+                    "probability": 0.00909090909090909,
+                    "raw_probability": "1 / 110f",
+                    "source_context": "Threshold(0.00001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "what the fuck",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "octahedron LEGS",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "yellows sword",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Minnesota",
+                    "boss_name": "dancing triangle",
+                    "probability": 0.012048192771084338,
+                    "raw_probability": "1 / 83f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        },
+        {
+            "item_name": "yetimi gay rat",
+            "reason": "XML item definition not found",
+            "drops": [
+                {
+                    "portal_name": "Caelid Wilds",
+                    "boss_name": "GUMBALL",
+                    "probability": 0.005847953216374269,
+                    "raw_probability": "1 / 171f",
+                    "source_context": "Threshold(0.0001)",
+                    "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs"
+                }
+            ]
+        }
+    ]
+}

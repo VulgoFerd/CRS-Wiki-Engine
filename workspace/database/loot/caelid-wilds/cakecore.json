@@ -1,0 +1,149 @@
+{
+    "total": 8,
+    "drops": [
+        {
+            "item_name": "Darkstone Pickaxe",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0051813471502590676,
+            "raw_probability": "1 / 193f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Rocc",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0008453085376162299,
+            "raw_probability": "1 / 1183f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "a flarev2",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0008453085376162299,
+            "raw_probability": "1 / 1183f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "rexr Key",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.1111111111111111,
+            "raw_probability": "1 / 9f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "prism of prism of chaos",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0008453085376162299,
+            "raw_probability": "1 / 1183f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "tisk tisk maybe YOURE",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.002793296089385475,
+            "raw_probability": "1 / 358f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Dreadcull T4 Upgrade",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0030303030303030303,
+            "raw_probability": "1 / 330f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        },
+        {
+            "item_name": "Spaceship Token",
+            "boss_name": "cakecore",
+            "portal_name": "Caelid Wilds",
+            "difficulty": "endgame",
+            "drop_type": "item",
+            "probability": 0.0036363636363636364,
+            "raw_probability": "1 / 275f",
+            "tier": null,
+            "item_type": "",
+            "source_file": "server/wServer/logic/db/BehaviorDb.Events.cs",
+            "source_context": "Threshold(0.0001)",
+            "evidence": [
+                "boss:cakecore",
+                "portal:Caelid Wilds",
+                "source:server/wServer/logic/db/BehaviorDb.Events.cs"
+            ]
+        }
+    ]
+}
