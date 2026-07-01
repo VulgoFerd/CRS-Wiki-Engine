@@ -54,10 +54,6 @@ async def on_ready():
 
 @bot.command(name="boss")
 async def boss(ctx, *, query: str):
-    """
-    Generates full wiki page for a boss.
-    """
-
     try:
         page = engine.generate_boss_wiki(query)
 
@@ -65,11 +61,19 @@ async def boss(ctx, *, query: str):
             await ctx.send("❌ Boss não encontrado.")
             return
 
+        # SAFE RENDERING (never crash embed)
         embed = renderer.render_boss_page(page)
+
+        if not embed:
+            await ctx.send("⚠️ Erro ao gerar embed da wiki.")
+            return
+
         await ctx.send(embed=embed)
 
     except Exception as e:
-        await ctx.send(f"❌ Error generating boss wiki: {str(e)}")
+        # NEVER CRASH BOT
+        await ctx.send("❌ Erro interno ao gerar wiki.")
+        print(f"[CRS BOT ERROR] {e}")
 
 
 @bot.command(name="graph")

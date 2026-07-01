@@ -8,6 +8,7 @@ from ingestion.indexer import EntityIndexer
 from services.boss_resolver import BossResolver
 from services.loot_resolver import LootResolver
 from services.entity_linker import EntityLinker
+from core.wiki_schema import WikiSchema
 
 
 class CRSWikiEngine:
@@ -83,8 +84,15 @@ class CRSWikiEngine:
         )
 
         self._cache[cache_key] = page
+        
+        # 🔒 VALIDATION LAYER (CRITICAL)
+        if not WikiSchema.validate(page):
+            page = WikiSchema.safe(page)
+
+       
 
         return page
+    
 
     # -----------------------------
     # GRAPH API (Discord !graph)
