@@ -19,6 +19,7 @@ from core.engine import CRSWikiEngine
 from services.entity_linker import EntityLinker
 
 from api.discord_bot import run_bot
+from scheduler.sync_job import SyncJob
 
 
 
