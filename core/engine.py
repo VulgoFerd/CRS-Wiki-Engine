@@ -2,98 +2,129 @@ from __future__ import annotations
 
 from typing import Dict, Any, Optional
 
+from ingestion.parser import SourceParser
+from ingestion.indexer import EntityIndexer
+
 from services.boss_resolver import BossResolver
 from services.loot_resolver import LootResolver
-from services.wiki_builder import WikiBuilder
 from services.entity_linker import EntityLinker
 
 
 class CRSWikiEngine:
     """
-    Main orchestrator of the entire system.
+    SINGLE SOURCE OF TRUTH for wiki generation.
 
-    This is the single entry point used by:
-    - Discord bot
-    - API layer
-    - CLI tools
+    This version guarantees:
+    - consistent WikiPage schema
+    - ingestion integration
+    - deterministic output for Discord + export
     """
 
     def __init__(
         self,
         boss_resolver: BossResolver,
         loot_resolver: LootResolver,
-        entity_linker: EntityLinker
+        entity_linker: EntityLinker,
+        source_path: Optional[str] = None,
     ):
         self.boss_resolver = boss_resolver
         self.loot_resolver = loot_resolver
         self.entity_linker = entity_linker
 
-        self.wiki_builder = WikiBuilder(
-            boss_resolver=boss_resolver,
-            loot_resolver=loot_resolver
-        )
+        self.source_path = source_path
+
+        # cache (important for bot performance)
+        self._cache: Dict[str, Dict[str, Any]] = {}
 
     # -----------------------------
-    # Public API
+    # PUBLIC API (USED BY BOT)
     # -----------------------------
 
     def generate_boss_wiki(self, query: str) -> Optional[Dict[str, Any]]:
         """
-        Full pipeline entry point.
+        Main entry point for Discord bot.
+        Always returns a FULL WikiPage (never partial data).
         """
 
-        page = self.wiki_builder.build_boss_page(query)
+        cache_key = query.lower().strip()
 
-        if not page:
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+
+        # 1. INGESTION (ONLY IF SOURCE EXISTS)
+        parsed_data = None
+        indexed_data = None
+
+        if self.source_path:
+            parser = SourceParser(self.source_path)
+            parsed_data = parser.parse()
+
+            indexer = EntityIndexer()
+            indexed_data = indexer.build(parsed_data)
+
+        # 2. RESOLVE BOSS
+        boss = self.boss_resolver.resolve(query)
+
+        if not boss:
             return None
 
-        self._post_process_links(page)
+        # 3. RESOLVE LOOT
+        loot = self.loot_resolver.resolve(boss.get("id") or boss.get("name"))
+
+        # 4. ENTITY LINKING
+        linked = self.entity_linker.link(boss, loot)
+
+        # 5. BUILD FINAL WIKI PAGE (STRICT CONTRACT)
+        page = self._build_wiki_page(
+            boss=boss,
+            loot=loot,
+            linked=linked,
+            indexed=indexed_data,
+        )
+
+        self._cache[cache_key] = page
 
         return page
 
-    def generate_markdown(self, query: str) -> Optional[str]:
-        page = self.generate_boss_wiki(query)
-        if not page:
-            return None
-
-        return self.wiki_builder.to_markdown(page)
-
     # -----------------------------
-    # Link Post-Processing
-    # -----------------------------
-
-    def _post_process_links(self, page: Dict[str, Any]) -> None:
-        """
-        Builds entity relationships after wiki generation.
-        """
-
-        boss_id = page["meta"]["id"]
-
-        # link phases (future expansion)
-        for phase in page.get("phases", []):
-            phase_id = f"{boss_id}_phase_{phase.get('index')}"
-            self.entity_linker.add_link(boss_id, phase_id)
-
-        # link loot
-        for item in page["loot"]["items"]:
-            item_name = item.get("name")
-            if item_name:
-                self.entity_linker.add_link(boss_id, item_name)
-
-        # link internal stats relationships (future graph use)
-        stats = page["boss"]["stats"]
-        for k, v in stats.items():
-            stat_id = f"{boss_id}_stat_{k}"
-            self.entity_linker.add_link(boss_id, stat_id)
-
-    # -----------------------------
-    # Debug / Graph View
+    # GRAPH API (Discord !graph)
     # -----------------------------
 
     def get_entity_graph(self, entity_id: str) -> Dict[str, Any]:
+        return self.entity_linker.get_graph(entity_id)
+
+    # -----------------------------
+    # STRICT WIKI CONTRACT (CRITICAL PART)
+    # -----------------------------
+
+    def _build_wiki_page(
+        self,
+        boss: Dict[str, Any],
+        loot: Dict[str, Any],
+        linked: Dict[str, Any],
+        indexed: Optional[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+
         return {
-            "entity": entity_id,
-            "related": list(self.entity_linker.get_related(entity_id)),
-            "backlinks": list(self.entity_linker.get_backlinks(entity_id)),
-            "connected": list(self.entity_linker.get_all_links(entity_id)),
+            "meta": {
+                "id": boss.get("id"),
+                "title": boss.get("name"),
+                "source": boss.get("source"),
+                "aliases": boss.get("aliases", []),
+            },
+
+            "boss": {
+                "summary": boss.get("summary") or boss.get("description") or "No description available.",
+                "stats": boss.get("stats", {}),
+            },
+
+            "phases": boss.get("phases", []),
+
+            "loot": {
+                "items": loot if isinstance(loot, list) else [],
+            },
+
+            "linked": linked,
+
+            "indexed": indexed or {},
         }
