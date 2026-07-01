@@ -28,7 +28,7 @@ engine = CRSWikiEngine(
 
 renderer = DiscordWikiRenderer()
 
-def render_boss_page(self, page: Dict[str, Any]):
+def render_boss_page(self, page: dict[str, any]):
     if not isinstance(page, dict):
         return None
 
