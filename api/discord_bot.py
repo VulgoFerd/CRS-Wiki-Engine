@@ -28,7 +28,13 @@ engine = CRSWikiEngine(
 
 renderer = DiscordWikiRenderer()
 
+def render_boss_page(self, page: Dict[str, Any]):
+    if not isinstance(page, dict):
+        return None
 
+    meta = page.get("meta", {})
+    boss = page.get("boss", {})
+    loot = page.get("loot", {})
 # -----------------------------
 # Bot setup
 # -----------------------------
