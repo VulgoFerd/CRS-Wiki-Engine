@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import discord
 from discord.ext import commands
 
@@ -8,9 +9,11 @@ from services.boss_resolver import BossResolver
 from services.loot_resolver import LootResolver
 from services.entity_linker import EntityLinker
 
+from services.discord_wiki_renderer import DiscordWikiRenderer
+
 
 # -----------------------------
-# Engine Setup
+# Engine setup (IMPORTANTE: único)
 # -----------------------------
 
 boss_resolver = BossResolver()
@@ -20,12 +23,14 @@ entity_linker = EntityLinker()
 engine = CRSWikiEngine(
     boss_resolver=boss_resolver,
     loot_resolver=loot_resolver,
-    entity_linker=entity_linker
+    entity_linker=entity_linker,
 )
+
+renderer = DiscordWikiRenderer()
 
 
 # -----------------------------
-# Bot Setup
+# Bot setup
 # -----------------------------
 
 intents = discord.Intents.default()
@@ -35,66 +40,74 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 
 # -----------------------------
+# Events
+# -----------------------------
+
+@bot.event
+async def on_ready():
+    print(f"[CRS Wiki Bot] Online as {bot.user}")
+
+
+# -----------------------------
 # Commands
 # -----------------------------
 
 @bot.command(name="boss")
 async def boss(ctx, *, query: str):
     """
-    !boss <name>
     Generates full wiki page for a boss.
     """
 
-    page = engine.generate_boss_wiki(query)
+    try:
+        page = engine.generate_boss_wiki(query)
 
-    if not page:
-        await ctx.send("Boss não encontrado.")
-        return
+        if not page:
+            await ctx.send("❌ Boss não encontrado.")
+            return
 
-    boss = page["boss"]
+        embed = renderer.render_boss_page(page)
+        await ctx.send(embed=embed)
 
-    embed = discord.Embed(
-        title=page["meta"]["title"],
-        description=boss["summary"],
-        color=0x2ecc71
-    )
-
-    stats = boss["stats"]
-    embed.add_field(name="HP", value=stats.get("hp"), inline=True)
-    embed.add_field(name="DEF", value=stats.get("defense"), inline=True)
-
-    loot = page["loot"]["items"][:5]
-    loot_text = "\n".join(
-        f"- {i.get('name')} ({i.get('rarity')})"
-        for i in loot
-    )
-
-    embed.add_field(name="Loot (top 5)", value=loot_text or "None", inline=False)
-
-    await ctx.send(embed=embed)
+    except Exception as e:
+        await ctx.send(f"❌ Error generating boss wiki: {str(e)}")
 
 
 @bot.command(name="graph")
 async def graph(ctx, entity_id: str):
     """
-    !graph <entity_id>
-    Shows relationship graph.
+    Shows entity relationship graph.
     """
 
-    data = engine.get_entity_graph(entity_id)
+    try:
+        data = engine.get_entity_graph(entity_id)
 
-    text = (
-        f"**Entity:** {data['entity']}\n\n"
-        f"**Related:** {', '.join(data['related']) or 'None'}\n\n"
-        f"**Backlinks:** {', '.join(data['backlinks']) or 'None'}"
-    )
+        text = (
+            f"**Entity:** `{data['entity']}`\n\n"
+            f"**Related:** {', '.join(data['related']) or 'None'}\n\n"
+            f"**Backlinks:** {', '.join(data['backlinks']) or 'None'}"
+        )
 
-    await ctx.send(text)
+        await ctx.send(text)
+
+    except Exception as e:
+        await ctx.send(f"❌ Error: {str(e)}")
 
 
 # -----------------------------
-# Run
+# Runner
 # -----------------------------
 
 def run_bot(token: str):
+    if not token:
+        raise ValueError("DISCORD_TOKEN not provided")
+
     bot.run(token)
+
+
+# -----------------------------
+# CLI fallback (opcional)
+# -----------------------------
+
+if __name__ == "__main__":
+    token = os.getenv("DISCORD_TOKEN")
+    run_bot(token)
